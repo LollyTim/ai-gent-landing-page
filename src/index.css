@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: GeistRegular;
+  src: url("./assets/fonts/Geist-Regular.ttf");
+  font-style: normal;
+  font-weight: 200 400;
+
+}
+
+@font-face {
+  font-family: GeistMedium;
+  src: url("./assets/fonts/Geist-Medium.ttf") format("truetype");
+  font-style: normal;
+  font-weight: 500;
+}
+
+
+@theme {
+  --font-geist-medieum: GeistMedium;
+  --font-geist-regular: GeistRegular;
+  --color-gold1: #FFD52B;
+  --color-btnBlue: #3C5AE6;
+}
